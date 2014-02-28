@@ -19,6 +19,7 @@ module.exports = function (grunt, options) {
   options = options || {};
   options.filePath = (options.filePath || './logs/grunt.log').replace(/\\/g, '/');
   options.clearLogFile = !!options.clearLogFile || false;
+  options.colors = !!options.colors || false;
 
   if (!nowrite)
   {
@@ -39,7 +40,7 @@ module.exports = function (grunt, options) {
   hooker.hook(process.stdout, 'write', {
     pre: function (result) {
       if (result && !nowrite) {
-        fs.appendFileSync(options.filePath, grunt.util.normalizelf(grunt.log.uncolor(result.toString())));
+        fs.appendFileSync(options.filePath, grunt.util.normalizelf(options.colors ? result.toString() : options.colors));
       }
       
       return result;
