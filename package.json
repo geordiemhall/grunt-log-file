@@ -1,13 +1,13 @@
 {
-  "name": "logfile-grunt",
-  "version": "0.1.4",
+  "name": "grunt-log-file",
+  "version": "0.1.5",
   "description": "Simple text file logging for Grunt and task output.",
-  "homepage": "https://github.com/brutaldev/logfile-grunt",
-  "bugs": "https://github.com/brutaldev/logfile-grunt/issues",
+  "homepage": "https://github.com/geordiemhall/logfile-grunt",
+  "bugs": "https://github.com/geordiemhall/logfile-grunt/issues",
   "author": {
     "name": "Werner van Deventer",
-    "email": "werner@brutaldev.com",
-    "url": "http://brutaldev.com"
+    "email": "werner@geordiemhall.com",
+    "url": "http://geordiemhall.com"
   },
   "keywords": [
     "grunt",
@@ -19,7 +19,7 @@
     "logfile-grunt"
   ],
   "files": [
-    "logfile-grunt.js"
+    "grunt-log-file.js"
   ],
   "main": "logfile-grunt.js",
   "engines": {
@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/brutaldev/logfile-grunt.git"
+    "url": "git://github.com/geordiemhall/logfile-grunt.git"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/brutaldev/logfile-grunt/blob/master/LICENSE"
+      "url": "https://github.com/geordiemhall/logfile-grunt/blob/master/LICENSE"
     }
   ],  
   "dependencies": {
